@@ -1,6 +1,9 @@
-function Chai() {
+function Chai({children}) {
     return (
-        <h3>chai is ready</h3>
+        <div>
+            <h3>chai is ready</h3>
+            {children}
+        </div>
     )
 }
 
