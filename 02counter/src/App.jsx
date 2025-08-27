@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(15)
+  let [counter, setCounter] = useState(15) // Initial value of counter is 15
 
   // let counter = 15
 
